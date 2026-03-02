@@ -1,0 +1,60 @@
+body {
+	font-family: arial;
+	background-color: grey;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+img {
+	width: 100%;
+	height: auto;
+
+}
+
+footer {
+	text-align: center;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: white;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(13, 50px);
+	grid-template-rows: repeat(13, 50px);
+	gap: 10px;
+}
+
+.item {
+	display: grid;
+      place-items: center;
+      color: black;
+      font-size: 24px;
+      font-weight: bold;
+      border-radius: 5px;
+      position: relative;
+}
+
+.item1 {
+      grid-column: 1 / 6; 
+      grid-row: 1 / 6;
+}
+
+.item2 {
+      grid-column: 1 / 7; 
+      grid-row: 7 / 7;
+}
+
+.item3 {
+      grid-column: 8 / 13; 
+      grid-row: 4 / 5;
+}
+
+
